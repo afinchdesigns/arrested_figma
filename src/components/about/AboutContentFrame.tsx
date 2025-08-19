@@ -7,7 +7,7 @@ export default function AboutContentFrame() {
       style={{ left: "calc(37.5% + 7.75px)", right: "calc(6.25% + 1.625px)" }}
     >
       <BtnNoFrame1 />
-      <div className="absolute font-['Verdana:Regular',_sans-serif] leading-[0] left-8 not-italic right-[29px] text-[#352c27] text-[13px] text-left top-[88px] tracking-[-0.13px]">
+      <div className="absolute font-['Verdana:Regular',_sans-serif] leading-[0] left-8 not-italic right-[29px] text-[#352c27] text-[16px] text-left top-[88px] tracking-[-0.13px]">
         <p className="adjustLetterSpacing block leading-[22px]">
           Design happens at the intersection of human empathy and technological possibility. In our increasingly
           automated world, I create digital experiences that feel genuinely human.

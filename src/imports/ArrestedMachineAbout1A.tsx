@@ -1,4 +1,4 @@
-import imgMeWithShadow21 from "figma:asset/ea5ad9246a7317a884b11e651236b7a31d6f7f41.png";
+import portrait from "/images/portrait.png";
 import AboutContentFrame from "../components/about/AboutContentFrame";
 import { ABOUT_POSITIONING } from "../components/about/AboutImagePositioning";
 
@@ -12,7 +12,7 @@ export default function ArrestedMachineAbout1A() {
         className="absolute inset-0 bg-no-repeat"
         data-name="me_withShadow2 1"
         style={{ 
-          backgroundImage: `url('${imgMeWithShadow21}')`,
+          backgroundImage: `url(${portrait})`,
           filter: 'grayscale(100%) brightness(1.2) contrast(1.3)',
           backgroundSize: 'auto 100%',
           backgroundPosition: `${ABOUT_POSITIONING.OPTIMAL_IMAGE_POSITION} center`
@@ -23,14 +23,14 @@ export default function ArrestedMachineAbout1A() {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="relative w-[1369px] h-[769px] max-w-full max-h-full">
           <div
-            className="absolute font-['Encode_Sans_Condensed:Black',_sans-serif] h-[297px] leading-[0] not-italic opacity-85 text-[#fcb426] text-[100px] text-left top-[82px] uppercase w-[673px] max-w-full"
+            className="absolute font-encode h-[297px] leading-[0] not-italic opacity-85 text-[#fcb426] text-[100px] text-left top-[82px] uppercase w-[673px] max-w-full"
             style={{ left: ABOUT_POSITIONING.TITLE_LEFT_POSITION }}
           >
             <p className="block leading-[89px]">Meet the man behind the machine.</p>
           </div>
           
           <div
-            className="absolute flex flex-col font-['Libre_Barcode_39_Text:Regular',_sans-serif] h-[61px] justify-center leading-[0] not-italic text-[#352c27] text-[24px] text-left top-[375.5px] translate-y-[-50%] w-[383px] max-w-full"
+            className="absolute flex flex-col font-barcode h-[61px] justify-center leading-[0] not-italic text-[#352c27] text-[24px] text-left top-[375.5px] translate-y-[-50%] w-[383px] max-w-full"
             style={{ left: ABOUT_POSITIONING.TITLE_LEFT_POSITION }}
           >
             <p className="block leading-[38px] whitespace-pre-wrap">{`The  Gears  are  always  turning`}</p>

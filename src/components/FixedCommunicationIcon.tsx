@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import svgPaths from '../imports/svg-7grg70023c';
 
 export default function FixedCommunicationIcon() {

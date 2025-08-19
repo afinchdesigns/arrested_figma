@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip';
 import svgPaths from '../imports/svg-7grg70023c';
 
@@ -231,7 +231,7 @@ export default function NativeNavigationDots() {
                 </TooltipTrigger>
                 <TooltipContent side="left" className="bg-[#352C27] text-[#FCB426] border-[#FCB426]/20">
                   <motion.p 
-                    className="font-['Libre_Franklin:Medium',_sans-serif] font-medium text-sm tracking-[0.56px] uppercase"
+                    className="font-franklin font-medium text-sm tracking-[0.56px] uppercase"
                     initial={{ opacity: 0, x: 10 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.2 }}

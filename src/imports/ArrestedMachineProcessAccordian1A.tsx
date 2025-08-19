@@ -1,4 +1,4 @@
-import imgArrestedMachineLogo2 from "figma:asset/25efdc71d2284342e57424fe076482c0163bef4c.png";
+// import imgArrestedMachineLogo2 from "figma:asset/25efdc71d2284342e57424fe076482c0163bef4c.png";
 
 export default function ArrestedMachineProcessAccordian1A() {
   return (
@@ -8,10 +8,10 @@ export default function ArrestedMachineProcessAccordian1A() {
         <div className="relative w-[1369px] max-w-full px-[6.25%] py-16">
           {/* Header Section */}
           <div className="mb-8">
-            <div className="font-['Encode_Sans_Condensed:Black',_sans-serif] leading-[0] not-italic opacity-95 text-[#ffffff] text-[100px] uppercase mb-6">
+            <div className="font-encode leading-[0] not-italic opacity-95 text-[#ffffff] text-[100px] uppercase mb-6">
               <p className="block leading-[89px]">look Inside the apparatus.</p>
             </div>
-            <div className="font-['Fira_Sans:Light',_sans-serif] leading-[27px] not-italic text-[#ffffff] text-[13px] w-[759px]">
+            <div className="font-['Fira_Sans:Light',_sans-serif] leading-[27px] not-italic text-[#ffffff] text-[16px] w-[759px]">
               <p className="block">
                 A comprehensive process built through years of solving complex design challenges and collaborating with
                 diverse teams.
@@ -30,7 +30,7 @@ export default function ArrestedMachineProcessAccordian1A() {
                   </div>
                 </div>
                 <div className="absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center gap-4">
-                  <div className="font-['Verdana:Regular',_sans-serif] text-[#352c27] text-[13px] tracking-[-0.13px] max-w-md text-right">
+                  <div className="font-['Verdana:Regular',_sans-serif] text-[#352c27] text-[16px] tracking-[-0.13px] max-w-md text-right">
                     Deep understanding of users, business goals, and market context through comprehensive research.
                   </div>
                   <div className="font-['Fira_Sans:Light',_sans-serif] text-[#6f5e55] text-[14px] tracking-[0.28px] w-[78px] text-right">
@@ -49,7 +49,7 @@ export default function ArrestedMachineProcessAccordian1A() {
                   </div>
                 </div>
                 <div className="absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center gap-4">
-                  <div className="font-['Verdana:Regular',_sans-serif] text-[#352c27] text-[13px] tracking-[-0.13px] max-w-md text-right">
+                  <div className="font-['Verdana:Regular',_sans-serif] text-[#352c27] text-[16px] tracking-[-0.13px] max-w-md text-right">
                     Synthesize research insights into clear design direction and strategic framework.
                   </div>
                   <div className="font-['Fira_Sans:Light',_sans-serif] text-[#6f5e55] text-[14px] tracking-[0.28px] w-[78px] text-right">
@@ -68,7 +68,7 @@ export default function ArrestedMachineProcessAccordian1A() {
                   </div>
                 </div>
                 <div className="absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center gap-4">
-                  <div className="font-['Verdana:Regular',_sans-serif] text-[#352c27] text-[13px] tracking-[-0.13px] max-w-md text-right">
+                  <div className="font-['Verdana:Regular',_sans-serif] text-[#352c27] text-[16px] tracking-[-0.13px] max-w-md text-right">
                     Transform concepts into polished, interactive designs ready for user testing.
                   </div>
                   <div className="font-['Fira_Sans:Light',_sans-serif] text-[#6f5e55] text-[14px] tracking-[0.28px] w-[78px] text-right">
@@ -87,7 +87,7 @@ export default function ArrestedMachineProcessAccordian1A() {
                   </div>
                 </div>
                 <div className="absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center gap-4">
-                  <div className="font-['Verdana:Regular',_sans-serif] text-[#352c27] text-[13px] tracking-[-0.13px] max-w-md text-right">
+                  <div className="font-['Verdana:Regular',_sans-serif] text-[#352c27] text-[16px] tracking-[-0.13px] max-w-md text-right">
                     Confirm design decisions with real users and adjust based on feedback.
                   </div>
                   <div className="font-['Fira_Sans:Light',_sans-serif] text-[#6f5e55] text-[14px] tracking-[0.28px] w-[78px] text-right">
@@ -106,7 +106,7 @@ export default function ArrestedMachineProcessAccordian1A() {
                   </div>
                 </div>
                 <div className="absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center gap-4">
-                  <div className="font-['Verdana:Regular',_sans-serif] text-[#352c27] text-[13px] tracking-[-0.13px] max-w-md text-right">
+                  <div className="font-['Verdana:Regular',_sans-serif] text-[#352c27] text-[16px] tracking-[-0.13px] max-w-md text-right">
                     Collaborate with development to bring designs to life and launch successfully.
                   </div>
                   <div className="font-['Fira_Sans:Light',_sans-serif] text-[#6f5e55] text-[14px] tracking-[0.28px] w-[78px] text-right">
@@ -119,7 +119,7 @@ export default function ArrestedMachineProcessAccordian1A() {
 
           {/* Footer Quote */}
           <div className="flex justify-end w-full">
-            <div className="font-['Libre_Barcode_39_Text:Regular',_sans-serif] text-[#fcb426] text-[24px] leading-[38px] w-[738px] text-right">
+            <div className="font-barcode text-[#fcb426] text-[24px] leading-[38px] w-[738px] text-right">
               But the best laid plans are laid bare
             </div>
           </div>
@@ -127,6 +127,7 @@ export default function ArrestedMachineProcessAccordian1A() {
       </div>
 
       {/* Logo - positioned to align with title top and process steps right edge */}
+      {/*
       <div
         className="absolute bg-center bg-cover bg-no-repeat shadow-[0px_4px_12px_0px_rgba(47,32,24,0.25)] size-[104px]"
         data-name="ArrestedMachineLogo 2"
@@ -136,6 +137,7 @@ export default function ArrestedMachineProcessAccordian1A() {
           right: '6.25%' // Align with container's right margin
         }}
       />
+      */}
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import ArrestedMachineHero1A from './imports/ArrestedMachineHero1A';
 import ArrestedMachineCasesVerticalCarousel1A from './imports/ArrestedMachineCasesVerticalCarousel1A';
 import ArrestedMachineAbout1A from './imports/ArrestedMachineAbout1A';
